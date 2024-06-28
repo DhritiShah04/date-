@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Go On A Date With Me?</title>
+
+    <style>
+        *{
+        margin: 0%;
+    }
+        body{
+        background-image: url(https://i.pinimg.com/originals/09/ce/20/09ce207540066bff1d69c12ddb61bfcb.gif);
+        background-size: 20%;
+        }
+        .container{
+            padding-top: 21%;
+        }
+        .ques{
+            font-size: 450%;
+            padding-bottom: 5%;
+            color: whitesmoke;
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+        @keyframes glow{
+            0%{
+                text-shadow: 0 0 10px white, 0 0 20px #f11e56, 0 0 30px #f11e56, 0 0 40px #f11e56, 0 0 50px #f11e56, 0 0 60px #f11e56, 0 0 70px #f11e56, 0 0 80px #f11e56;
+            }
+            100%{
+                text-shadow: 0 0 20px white, 0 0 30px #FA8072, 0 0 40px #FA8072, 0 0 50px #FA8072, 0 0 60px #FA8072, 0 0 70px #FA8072, 0 0 80px #FA8072;
+            }
+        }
+        .options{
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+        }
+        button{
+            border: none;
+        }
+        .yes{
+            background-color: #FFB6C1;
+            color: whitesmoke;
+            height:200px;
+            width: 250px;
+            align-content: center;
+            border-radius: 25%;
+            font-size: 250%;
+            transition: transform .45s ease;
+            box-shadow: 5px 5px 2px #e5a2ac;
+        }
+        .yes:hover{
+            background-color: #F33A6A;
+            transform: scale(1.15);
+            box-shadow: 5px 5px 2px #ce325b;
+            font-size: 270%;
+        
+        }
+        .no{
+            background-color: #FFB6C1;
+            color: whitesmoke;
+            height:80px;
+            width: 100px;
+            align-content: center;
+            border-radius: 25%;
+            font-size: 100%;
+            transition: transform .45s ease;
+            box-shadow: 5px 5px 2px #e5a2ac;
+        }
+        .no:hover{
+            background-color: #F33A6A;
+            transform: scale(1.15);
+            box-shadow: 5px 5px 2px #ce325b;
+            font-size: 108%;
+        }
+        @media only screen and (max-width:700px) {
+            body{
+                background-image: url(https://i.pinimg.com/originals/09/ce/20/09ce207540066bff1d69c12ddb61bfcb.gif);
+                background-size: 30%;
+            }
+            .container{
+                padding-top: 100%;
+            }
+            .ques{
+                font-size: 250%;
+                color: whitesmoke;
+                animation: glow 1.5s ease-in-out infinite alternate;
+            }
+            @keyframes glow{
+                0%{
+                    text-shadow: 0 0 11px white, 0 0 12px #f11e56, 0 0 13px #f11e56, 0 0 14px #f11e56, 0 0 15px #f11e56, 0 0 16px #f11e56, 0 0 17px #f11e56, 0 0 18px #f11e56;
+                }
+                100%{
+                    text-shadow: 0 0 12px white, 0 0 13px #FA8072, 0 0 14px #FA8072, 0 0 15px #FA8072, 0 0 16px #FA8072, 0 0 17px #FA8072, 0 0 18px #FA8072;
+                }
+            }
+            .options{
+                display: flex;
+                justify-content: center;
+                gap: 10%;
+            } 
+            button{
+            border: none;
+            }
+            .yes{
+                background-color: #FFB6C1;
+                color: whitesmoke;
+                height:80px;
+                width: 100px;
+                align-content: center;
+                border-radius: 20%;
+                font-size: 120%;
+                transition: transform .45s ease;
+                box-shadow: 4px 4px 1.5px #e5a2ac;
+            }
+            .yes:hover{
+                background-color: #F33A6A;
+                transform: scale(1.15);
+                box-shadow: 4px 4px 1.5px #ce325b;
+                font-size: 150%;
+            
+            }
+            .no{
+                background-color: #FFB6C1;
+                color: whitesmoke;
+                height:40px;
+                width: 60px;
+                align-content: center;
+                border-radius: 20%;
+                font-size: 80%;
+                transition: transform .45s ease;
+                box-shadow: 4px 4px 1.5px #e5a2ac;
+            }
+            .no:hover{
+                background-color: #F33A6A;
+                transform: scale(1.15);
+                box-shadow: 4px 4px 1.5px #ce325b;
+                font-size: 90%;
+            }
+ 
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <div class="ques">
+            Will You Go On A Date With Me?
+        </div>
+        <div class="options">
+            <Button class="yes" onclick="location.href='yes.html'">YESSS</Button>
+            <button class="no" onclick="location.href='no5.html'">No</button>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
